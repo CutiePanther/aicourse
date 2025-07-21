@@ -1,6 +1,29 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-# 首页部分元素定制
+
+hero:
+  name: "Watone Docs"
+  text: "开发文档和技术总结"
+  tagline: My great project tagline
+  actions:
+    - theme: brand
+      text: Markdown Examples
+      link: /markdown-examples
+    - theme: alt
+      text: API Examples
+      link: /api-examples
+
+features:
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+<!-- ---
+layout: home
 blog:
  name: '@sugarat/theme'
  motto: 简约风的 Vitepress 博客主题
@@ -12,7 +35,8 @@ blog:
   - 生活的真谛不在繁华，而在于淡泊
  # 设置 inspiringTimeout 可以实现自动切换
  inspiringTimeout: 3000
+ avatarMode: split
  pageSize: 6
  # 移动端隐藏头部头像展示
- minScreenAvatar: false
----
+ minScreenAvatar: true
+--- -->
