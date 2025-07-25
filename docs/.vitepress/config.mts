@@ -42,7 +42,23 @@ export default defineConfig({
     //   text: '去 GitHub 上编辑内容'
     // },
     nav: [
-      { text: '首页', link: '/' },
+      {
+        text: '主题',
+        items: [
+          { text: '快速开始', link: '/sop/quickStart' },
+          { text: '样式定制', link: '/sop/style' },
+          { text: '组件库', link: '/sop/component' },
+          { text: '更多能力', link: '/sop/more' },
+        ],
+      },
+      {
+        text: '文档',
+        items: [
+          { text: 'git指南', link: '/dev/git' },
+          // { text: 'API文档', link: '/dev/api/' },
+          // { text: '常见问题', link: '/dev/faq/' },
+        ],
+      },
       { text: '关于', link: '/about' },
     ],
     socialLinks: [

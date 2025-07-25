@@ -1,28 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
-
-hero:
-  name: "Watone Docs"
-  text: "开发文档和技术总结"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
-<!-- ---
 layout: home
 blog:
  name: '@sugarat/theme'
@@ -39,4 +15,4 @@ blog:
  pageSize: 6
  # 移动端隐藏头部头像展示
  minScreenAvatar: true
---- -->
+---
